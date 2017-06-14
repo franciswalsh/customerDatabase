@@ -30,7 +30,7 @@
 
             }
             let markup =
-            ` <h1 id="mainHeader">Internal Customer Directory</h1>
+            ` <h1 id="mainHeader">Internal Company Directory</h1>
               <div class="customers">
                 ${customerInfoToHTML(users[0])}
                 ${customerInfoToHTML(users[1])}
