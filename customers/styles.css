@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+#mainHeader {
+  text-align: center;
+}
+
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.customerBox {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profPicContainer {
+  text-align: center;
+}
+.profPic {
+  width: 90%;
+}
+.customerInfo {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.name {
+  border-bottom-color: green;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+.email {
+  margin-bottom: 10%;
+  color: lightgrey;
+}
+.streetAddress, .cityAddress, .phoneNumber {
+  color: grey;
+}
